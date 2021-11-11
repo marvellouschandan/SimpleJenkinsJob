@@ -7,7 +7,7 @@ import org.springframework.web.bind.annotation.RestController;
 public class WelcomeController {
 	@GetMapping("/home")
 	public String welcome() {
-		return "Welcome to the simple jenkins job homepage!";
+		return "Welcome to GS family!";
 	}
 
 }
